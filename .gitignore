@@ -2,6 +2,8 @@
 bin/
 logs/
 obj/
+.vscode/
 
 ## Individual Files
 *.log
+*.csproj
