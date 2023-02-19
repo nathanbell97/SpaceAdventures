@@ -1,0 +1,7 @@
+## Directories
+bin/
+logs/
+obj/
+
+## Individual Files
+*.log
