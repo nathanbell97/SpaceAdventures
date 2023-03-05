@@ -4,10 +4,11 @@ using SplashKitSDK;
 class Player
 {
     // Properties
-    private int speed;
+    private double speed;
     private Bitmap playerbitmap;
-    private int x;
-    private int y;
+    private double x;
+    private double y;
+    private double _lives;
 
 
 
@@ -18,14 +19,26 @@ class Player
         playerbitmap = new Bitmap("Player Spaceship", "spaceship.png");
         x = (window.Width / 2) - (playerbitmap.Width / 2);
         y = window.Height - playerbitmap.Height;
+        //TO DO
     }
 
 
 
     // Methods
+    public Boolean CollidesWith()
+    {
+        return true;//TO DO
+    }
     public void Draw()
     {
         playerbitmap.Draw(x, y);
     }
-
+    public void Move()
+    {
+        //TO DO
+    }
+    public void Shoot()
+    {
+        //TO DO
+    }
 }
