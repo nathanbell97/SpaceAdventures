@@ -1,7 +1,7 @@
 using System;
 using SplashKitSDK;
 
-class Player
+class Player : GamePiece
 {
     // Properties
     private double speed;
@@ -25,7 +25,7 @@ class Player
 
 
     // Methods
-    public Boolean CollidesWith()
+    public Boolean CollidesWith(GamePiece gamePiece)
     {
         return true;//TO DO
     }
